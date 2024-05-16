@@ -3,7 +3,7 @@ import os
 
 API_KEY = os.getenv('API_KEY')
 
-@bot.messege_handler(commands=['Greet'])
+messege_handler(commands=['Greet'])
 def greet(message):
   bot.replay_to(message, "Hey! How R U?")
 
