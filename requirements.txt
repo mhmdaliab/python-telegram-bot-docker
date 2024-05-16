@@ -1,3 +1,1 @@
 # Place your requirements here
-os
-telebot
