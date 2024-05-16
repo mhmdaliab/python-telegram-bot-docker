@@ -2,7 +2,7 @@
 import os
 import telebot
 
-API_KEY = os.getenv('API_KEY')
+API_KEY = os.getenv('TELEGRAM_TOKEN')
 
 @bot.messege_handler(commands=['Greet'])
 def Greet(message):
