@@ -7,7 +7,7 @@ import telebot
 API_KEY = os.getenv ('TELEGRAM_TOKEN')
 bot = telebot.TeleBot(API_KEY)
 
-@bot.messege_handler(commands=['Greet'])
+@bot.message_handler(commands=['Greet'])
 def Greet(message):
   bot.replay_to(message, "Hey! How R U?")
 
