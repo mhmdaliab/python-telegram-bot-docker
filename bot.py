@@ -11,4 +11,4 @@ bot = telebot.TeleBot(API_KEY)
 def Greet(message):
   bot.replay_to(message, "Hey! How R U?")
 
-#bot.polling()
+bot.polling()
