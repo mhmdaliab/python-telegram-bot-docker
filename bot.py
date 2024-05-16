@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 # Write your Telegram bot
 import os
 import telebot
