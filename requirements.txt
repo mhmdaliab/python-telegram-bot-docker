@@ -1,5 +1,4 @@
 # Place your requirements here
 
-docker-compose
 os
 telebot
