@@ -6,7 +6,7 @@ services:
       context: "."
       dockerfile: Dockerfile
     environment:
-      - TELEGRAM_TOKEN=${TELEGRAM_TOKEN}
+      - TELEGRAM_TOKEN=${7008948652:AAFoDBxL8KqeqM_tD_u1MPCy5Lb05wLymB8}
     volumes:
       - "/codebase:/codebase"
       - "/storage:/storage"
